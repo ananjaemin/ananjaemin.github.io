@@ -1,5 +1,10 @@
- .profile_logo
+header{
+    position: sticky;
+    top: 0;
+}
+
+.profile_logo
 {
-    width: 100pt;
-    height: 100pt;
+    width: 50%;
+    height: 50pt;
 }
