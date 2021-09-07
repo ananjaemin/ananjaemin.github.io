@@ -17,18 +17,20 @@ header{
     top: 35%;
     left: 50%;
     transform:translate(-50%, -50%);
-    z-index: -1;
-}
-
-.menu_icon{
-    position: absolute;
-    top: 10px;
-    left: 25px;
+    z-index: -99;
 }
 
 .menuicon{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    cursor: pointer;
     font-size: 40px;
     color: #494949;
+    z-index: 100;
 }
 
+input[id="menu_icon"]{
+  display: none;
+}
 
