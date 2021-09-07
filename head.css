@@ -1,6 +1,6 @@
 header{
     
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #D0D0D0;
     margin:-6px;
 }
 
@@ -19,3 +19,16 @@ header{
     transform:translate(-50%, -50%);
     z-index: -1;
 }
+
+.menu_icon{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.menuicon{
+    font-size: 40px;
+    color: #494949;
+}
+
+
