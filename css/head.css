@@ -1,5 +1,4 @@
 header{
-    
     border-bottom: 2px solid #D0D0D0;
     margin:-6px;
 }
@@ -7,8 +6,6 @@ header{
 .top{
     height: 60px;
     background-color: #F5F5F5;
-    
-    
 }
 
 
@@ -32,5 +29,11 @@ header{
 
 input[id="menu_icon"]{
   display: none;
+}
+
+.sidebar_main{
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
 

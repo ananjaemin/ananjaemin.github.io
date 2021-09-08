@@ -8,6 +8,7 @@ div[class="sidebar"]{
     z-index:99;
     transition:all ,0.5s;
 }
+
 input[id="menu_icon"]:checked + label + div{
     left: 0;
 }
