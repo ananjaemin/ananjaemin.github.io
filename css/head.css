@@ -31,9 +31,4 @@ input[id="menu_icon"]{
   display: none;
 }
 
-.sidebar_main{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-}
 

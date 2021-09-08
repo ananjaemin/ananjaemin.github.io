@@ -1,14 +1,52 @@
 div[class="sidebar"]{
     width: 300px;
     height: 100%;
-    background: #CECECE;
+    background: #e6e6e6;
     position: fixed;
     top: 0;
     left: -300px;
-    z-index:99;
+    z-index:10;
     transition:all ,0.5s;
 }
 
 input[id="menu_icon"]:checked + label + div{
     left: 0;
 }
+
+.sidebar_list{
+    width: 150px;
+    height: 300px;
+}
+
+.sidebar_main{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+a{
+    text-decoration-line : none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:underline;  
+}
+
+.sidebar_list_main{
+    font-size: 23px;
+}
+
+.sidebar_list_side1{
+    position: absolute;
+    font-size: 23px;
+    top: 43px;
+}
+
+.sidebar_by{
+    position: absolute;
+    top: 650px;
+    left: 38px;
+    color: #9b9b9b;
+}
+
