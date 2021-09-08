@@ -4,13 +4,14 @@ div[class="sidebar"]{
     background: #e6e6e6;
     position: fixed;
     top: 0;
-    left: -300px;
+    left: -301px;
     z-index:10;
     transition:all ,0.5s;
+    border-right: 2px solid #aaaaaa;
 }
 
 input[id="menu_icon"]:checked + label + div{
-    left: 0;
+    left: 1px;
 }
 
 .sidebar_list{
