@@ -1,0 +1,26 @@
+.mid{
+    position: absolute;
+    width: 800px;
+    height: 100%;
+    top: 80px;
+    left: 370px;
+    border: 2px solid black;
+}
+
+.mid_logo{
+    position: absolute;
+    width: 789px;
+    height: 300px;
+    top: 5px;
+    left: 5px;
+    border: 1px solid red;
+}
+
+.mid_mypofile{
+    position: absolute;
+    width: 760px;
+    height: 220px;
+    top: 320px;
+    left: 20px;
+    border: 2px solid blue;
+}
