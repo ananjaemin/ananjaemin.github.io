@@ -1,5 +1,11 @@
 body{
     background: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#particles-js{
+    height: 100%;
 }
 
 body {
@@ -8,6 +14,7 @@ body {
 
 
 .mid{
+    background: #2c2c2c;
     position: absolute;
     width: 800px;
     height: 100%;
