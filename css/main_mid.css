@@ -18,10 +18,11 @@ body {
     position: absolute;
     width: 800px;
     height: 100%;
-    top: 70px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    border: 2px solid white;
+    border-left:2px solid black;
+    border-right:2px solid black;
 }
 
 .mid_logo{
