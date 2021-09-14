@@ -1,13 +1,13 @@
 div[class="sidebar"]{
     width: 300px;
     height: 100%;
-    background: #e6e6e6;
+    background: #808080;
     position: fixed;
     top: 0;
     left: -301px;
     z-index:10;
     transition:all ,0.5s;
-    border-right: 2px solid #aaaaaa;
+    border-right: 2.5px solid #3f3f3f;
 }
 
 input[id="menu_icon"]:checked + label + div{

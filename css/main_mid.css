@@ -1,10 +1,19 @@
+body{
+    background: #2c2c2c;
+}
+
+body {
+    margin: 0;
+  }
+
+
 .mid{
     position: absolute;
     width: 800px;
     height: 100%;
     top: 80px;
-    left: 370px;
-    border: 2px solid black;
+    left: 50%;
+    border: 2px solid white;
 }
 
 .mid_logo{
@@ -24,3 +33,5 @@
     left: 20px;
     border: 2px solid blue;
 }
+
+

@@ -1,11 +1,12 @@
 header{
-    border-bottom: 2px solid #D0D0D0;
-    margin:-6px;
+    
+    border-bottom: 3px solid #545454;
+    margin:-7.7px;
 }
 
 .top{
-    height: 60px;
-    background-color: #F5F5F5;
+    height: 65px;
+    background-color: #6a6a6a;
 }
 
 .menuicon{
@@ -14,7 +15,7 @@ header{
     left: 25px;
     cursor: pointer;
     font-size: 40px;
-    color: #494949;
+    color: #191919;
     z-index: 100;
 }
 
