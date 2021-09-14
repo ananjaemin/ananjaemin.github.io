@@ -11,9 +11,9 @@ body {
     position: absolute;
     width: 800px;
     height: 100%;
-    top: 435px;
+    top: 70px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     border: 2px solid white;
 }
 
