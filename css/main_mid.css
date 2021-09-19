@@ -4,16 +4,14 @@ body{
     padding: 0;
     height: 100vh;
 }
-#particles-js{
-    height: 100%;
-}
+
 
 body {
     margin: 0;
   }
 
 
-.mid{
+.side_mid{
     background: #2c2c2c;
     position: absolute;
     width: 800px;
@@ -26,7 +24,7 @@ body {
 
 }
 
-.mid_logo{
+.side_mid_logo{
     position: absolute;
     width: 789px;
     height: 300px;
@@ -36,7 +34,7 @@ body {
     border: 1px solid red;
 }
 
-.mid_myprofile{
+.side_mid_myprofile{
     position: absolute;
     width: 760px;
     height: 220px;

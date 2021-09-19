@@ -1,7 +1,7 @@
 div[class="sidebar"]{
     width: 300px;
     height: 100%;
-    background: #545454;
+    background: #434347;
     position: fixed;
     top: 0;
     left: -301px;
@@ -37,7 +37,7 @@ a:hover{
 .sidebar_list_main{
     font-size: 23px;
     font-weight: 600;
-    color: rgb(216, 216, 216);
+    color: #f3f3f3;
 }
 
 .sidebar_list_side1{
@@ -45,7 +45,7 @@ a:hover{
     font-size: 23px;
     top: 43px;
     font-weight: 600;
-    color: rgb(216, 216, 216);
+    color: #f3f3f3;
 }
 
 .sidebar_by{

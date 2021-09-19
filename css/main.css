@@ -1,5 +1,5 @@
 body{
-    background-image:url("/img/img1.jpg")
+    background-image:url("/img/main.png")
 }
 
 .back{
@@ -7,5 +7,23 @@ body{
     width: 100%;
     height: 100%;
     z-index: -100;
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.65);
+}
+#particles-js{
+    height: 100%;
+}
+
+
+.myprofile{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+}
+
+.myprofile_im{
+    font-size: 100px;
+    color: #dddddd;
+    border-radius: 125px;
+    background-color:rgba(0, 0, 0, 0.65);
 }
