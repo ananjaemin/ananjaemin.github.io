@@ -36,12 +36,16 @@ a:hover{
 
 .sidebar_list_main{
     font-size: 23px;
+    font-weight: 600;
+    color: rgb(216, 216, 216);
 }
 
 .sidebar_list_side1{
     position: absolute;
     font-size: 23px;
     top: 43px;
+    font-weight: 600;
+    color: rgb(216, 216, 216);
 }
 
 .sidebar_by{
