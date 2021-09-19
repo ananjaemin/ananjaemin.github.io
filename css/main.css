@@ -16,14 +16,12 @@ body{
 
 .myprofile{
     position: absolute;
-    top: 25%;
-    left: 10%;
-
+    top: 15%;
+    width: 100%;
 }
 
 .myprofile_im{
     font-size: 100px;
     color: #fff;
-    border-radius: 125px;
     background-color:rgba(0, 0, 0, 0.65);
 }
