@@ -54,7 +54,7 @@ input[type="radio"]:checked +label{
 
 
 .conbox{
-    width: 100%;
+    width: 120%;
     height: 0px;
     visibility:hidden;
     color: transparent;
