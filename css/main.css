@@ -35,7 +35,7 @@ body{
 }
 
 input[type="radio"]{
-    display: none;
+  display: none;
 }
 
 input[type="radio"] + label{
@@ -54,47 +54,54 @@ input[type="radio"]:checked +label{
 
 
 .conbox{
-    width: 120%;
+    width: 150%;
     height: 0px;
     visibility:hidden;
     color: transparent;
 }
-
-
+.my_about{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 20px;
+}
 
 input[id="tab01"]:checked ~ .con1{
     position: absolute;
-    color: white;
+    color: #BFBFBF;
     top: 140%;
-    left: -10%;
-    width: 120%;
-    height: 1000%;
+    left: -30%;
+    width: 150%;
+    height: 1100%;
     visibility: initial;
     text-indent: 0px;
-    border: 2px solid blue;
+    border: 1px solid #E0DCF3;
+    background-color:rgba(0, 0, 0, 0.3);
     transition:all ,1.3s;
 }
 input[id="tab02"]:checked ~ .con2 {
     position: absolute;
     color: white;
     top: 140%;
-    left: -10%;
-    width: 120%;
-    height: 1000%;
+    left: -30%;
+    width: 150%;
+    height: 1100%;
     visibility: initial;
     text-indent: 0px;
-    border: 2px solid blue;
+    border: 1px solid #E0DCF3;
+    background-color:rgba(0, 0, 0, 0.3);
     transition:all ,1.3s;
 }
 input[id="tab03"]:checked ~ .con3 {
     position: absolute;
     color: white;
     top: 140%;
-    left: -10%;
-    width: 120%;
-    height: 1000%;
+    left: -30%;
+    width: 150%;
+    height: 1100%;
     visibility: initial;
     text-indent: 0px;
-    border: 2px solid blue;
-    transition:all ,1.3s;
+    border: 1px solid #E0DCF3;
+    background-color:rgba(0, 0, 0, 0.3);
+    transition:all ,1.3s;   
 }
