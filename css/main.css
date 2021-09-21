@@ -1,5 +1,5 @@
 body{
-    background-image:url("/img/main.png")
+    background-image:url("/img/main.png");
 }
 
 .back{
@@ -18,11 +18,51 @@ body{
     position: absolute;
     top: 15%;
     width: 100%;
+    background-color:rgba(0, 0, 0, 0.65);
 }
 
-.myprofile_im{
+
+.myname{
+    font-weight: 550;
     font-size: 100px;
     color: #fff;
-    background-color:rgba(0, 0, 0, 0.65);
-    font-weight: 550;
 }
+
+.main_tab{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"] + label{
+    display:inline-block;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked +label{
+    background:#999;
+    color:#000;
+}
+
+.conbox{
+    height:100%;
+    background:#999;
+    margin:0 20px;
+    display:none;
+    text-align:left;
+    font-size:12px;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+input[id="tab01"]:checked ~ .con1 {display:block;}
+input[id="tab02"]:checked ~ .con2 {display:block;}
+input[id="tab03"]:checked ~ .con3 {display:block;}
