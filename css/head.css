@@ -1,18 +1,18 @@
 
 
 .top{
-    height: 57px;
+    height: 60px;
     background-color: #4d4d4d;
-    border-bottom: 3px solid #545454;
+    border-bottom: 3px solid #363636;
     z-index: 100;
 }
 
 .menuicon{
     position: absolute;
     top: 10px;
-    left: 25px;
+    left: 30px;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 47px;
     color: #191919;
     z-index: 100;
 }

@@ -30,8 +30,8 @@ body{
 
 .main_tab{
     position: absolute;
-    top: 60%;
-    left: 65%;
+    top: 55%;
+    left: 66%;
 }
 
 input[type="radio"]{
@@ -45,6 +45,7 @@ input[type="radio"] + label{
     text-align: center;
     color: white;
     cursor:pointer;
+    font-size: 18px;
 }
 
 input[type="radio"]:checked +label{
@@ -54,11 +55,12 @@ input[type="radio"]:checked +label{
 
 
 .conbox{
-    width: 150%;
+    width: 160%;
     height: 0px;
     visibility:hidden;
     color: transparent;
 }
+
 .my_about{
     position: absolute;
     top: 3%;
@@ -71,21 +73,23 @@ input[id="tab01"]:checked ~ .con1{
     color: #BFBFBF;
     top: 140%;
     left: -30%;
-    width: 150%;
-    height: 1100%;
+    width: 160%;
+    height: 1110%;
     visibility: initial;
     text-indent: 0px;
     border: 1px solid #E0DCF3;
     background-color:rgba(0, 0, 0, 0.3);
     transition:all ,1.3s;
 }
+
+
 input[id="tab02"]:checked ~ .con2 {
     position: absolute;
-    color: white;
+    color: #BFBFBF;
     top: 140%;
     left: -30%;
-    width: 150%;
-    height: 1100%;
+    width: 160%;
+    height: 1110%;
     visibility: initial;
     text-indent: 0px;
     border: 1px solid #E0DCF3;
@@ -94,14 +98,58 @@ input[id="tab02"]:checked ~ .con2 {
 }
 input[id="tab03"]:checked ~ .con3 {
     position: absolute;
-    color: white;
+    color: #BFBFBF;
     top: 140%;
     left: -30%;
-    width: 150%;
-    height: 1100%;
+    width: 160%;
+    height: 1110%;
     visibility: initial;
     text-indent: 0px;
     border: 1px solid #E0DCF3;
     background-color:rgba(0, 0, 0, 0.3);
-    transition:all ,1.3s;   
+    transition:all ,1.3s;
+}
+
+.social_button{
+    position: relative;
+    width: 10%;
+    height: 7%;
+    top: 0.9%;
+    left: 83.5%;
+}
+
+.git_button{
+    margin: 0px 7px 0px 7px;
+    padding: 10px;
+    width: 135px;
+    height: 50px;
+    border-radius: 45px;
+    color: rgba(132, 226, 144);
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border:3px solid rgba(132, 226, 144);
+    
+}
+
+.instagram_button{
+    position: absolute;
+    left: 80%;
+    margin: 0px 7px 0px 7px;
+    padding: 10px;
+    width: 135px;
+    height: 50px;
+    border-radius: 45px;
+    color: rgba(132, 226, 144);
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border:3px solid rgba(132, 226, 144);
+}
+
+button:focus{
+    outline: 0;
+}
+
+button:hover{
+    color: black;
+    background-color: #CBCBCB;
 }
